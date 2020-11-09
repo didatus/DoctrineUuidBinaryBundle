@@ -1,0 +1,31 @@
+{
+    "name": "didatus/doctrine-uuid-binary",
+    "description": "UUID support for Doctrine using MySQL BINARY type and UUID_TO_BIN",
+    "authors": [
+        {
+            "name": "Christian Hammer",
+            "email": "me@c8h5.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1",
+        "symfony/framework-bundle": "5.2.*",
+        "symfony/config": "5.2.*",
+        "symfony/http-foundation": "5.2.*",
+        "doctrine/doctrine-bundle": "^2.1",
+        "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Didatus\\DoctrineUuidBinary\\": "src/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "5.2.*"
+        }
+    }
+}
