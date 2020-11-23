@@ -1,6 +1,7 @@
 {
     "name": "didatus/doctrine-uuid-binary",
     "description": "UUID support for Doctrine using MySQL BINARY type and UUID_TO_BIN",
+    "license": "MIT",
     "authors": [
         {
             "name": "Christian Hammer",

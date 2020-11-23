@@ -17,6 +17,13 @@ class DoctrineUuidBinaryExtension extends Extension implements PrependExtensionI
                 'types' => [
                     'uuid' => 'Didatus\DoctrineUuidBinary\Types\UuidType'
                 ]
+            ],
+            'orm' => [
+                'dql' => [
+                    'string_functions' => [
+                        'uuid_to_bin' => 'Didatus\DoctrineUuidBinary\Dql\UuidToBin'
+                    ]
+                ]
             ]
         ]);
     }
